@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escrever</title>
+    <link rel="stylesheet" href="./escrita.css">
+    <script src="./escritas.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/index.html">DeskIndor</a>
+            <div class="barra"></div>
+            <p class="bbb">Escrever</p>
+            <ul class="nav-list">
+             <li><a href="/projetos/projetos.html">Meus projetos</a></li>
+             <li><a href="/">Seja premium</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="button-func">
+            <div class="buttons-top">
+                <button class="Negrito" id="Negrinho" onclick="Abilita()">N</button>
+                <button class="Negrito" id="barrinha" onclick="Underline()">U</button>
+            </div>
+            <div class="label-text">
+                    <label for="font-select" class="font-label">Selecione uma fonte :</label>
+                    <select id="font-alteration" class="select">
+                        <option value="Arial">Arial</option>
+                        <option value="Verdana">Verdana</option>
+                        <option value="Times New Roman">Times New Roman</option>
+                    </select>
+                
+                <div class="range-div">
+                    <label for="font-size-range" class="palmeiras">Tamanho da Fonte:</label>
+                    <input type="range" id="font-size-range" min="10" max="40" value="20" class="coringas">
+                </div>
+
+                <div class="distancia-div">
+                    <label for="label-spacing" class="spacing-label">Espaçamento do texto:</label>
+                    <input type="range" id="font-spacing" min="-1" max="10" step="0.1" class="spacing-input">
+                </div>
+
+            </div>
+        </div>
+        <div class="text-div">
+            <input type="text" class="titulo" placeholder="Titulo" >
+            <textarea class="texto" id="texto" placeholder="Area de texto"></textarea>
+            <button class="button-text">Salvar</button>
+        </div>
+    </main>
+</body>
+</html>
+
+
+

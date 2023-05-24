@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    transition: 0,3s;
+}
+a:hover{
+    opacity: 0.7;
+    color: blue;
+}
+.logo{
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin-top: 1,2%;
+    margin-left: -50px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: gray;
+    height: 8vh;
+}
+.nav-list{
+    list-style: none;
+    display:flex;
+    font-size: 25px;
+    margin-top: 1%;
+}
+.nav-list li{
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+.container{
+    position: absolute;
+}
+
+.templates{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size:54px;
+}
+.livro{
+    font-size: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  gray;
+    cursor: pointer;
+
+}
+.roteiro{
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 44px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  gray;
+    cursor: pointer;
+}
+.outro{
+    font-size: 48px;
+    margin-left: 20px;
+    margin-top: 44px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  gray;
+    cursor: pointer;
+
+}
+.barra{
+    height: 440px;
+    width: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 470px;
+    margin-top: -400px;
+    position: relative;
+}
+.recentes{
+    position: relative;
+    margin-left: 490px;
+    margin-top: -440px;
+    font-size: 54px;
+}
+.container-cards{
+    background-color: rgb(255, 255, 255);
+    height: 370px;
+    width: 800px;
+    margin-left: 700px;
+    display: flex;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+.button-card{
+    position: relative;
+    height: 70px;
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 300px;
+    border-radius: 30px;
+    background-color: rgb(255, 198, 10);
+    border: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.button-card:hover{
+    color:rgb(172, 133, 6) ;
+}
+.button-div{
+    position: absolute;
+}
+.cards{
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 1000px;
+    justify-content: space-around;
+
+}
+.image{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    height: 270px;
+    width: 210px;
+    border: solid 6px;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 60px;
+    position: relative;
+
+}
+.img-div{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 29px;
+}
+.button-img{
+    position: absolute;
+    margin-top: 220px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(131, 130, 130);
+    font-family: sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 3px rgba(128, 128, 128, 0.459);
+    border: solid 2px rgb(77, 76, 76);
+    margin-left: -150px;
+}
+.button-img:hover{
+    color: rgb(54, 54, 54);
+}
